@@ -1,1 +1,1017 @@
-
+{
+	"info": {
+		"_postman_id": "22ae1eda-e0d1-11eb-ba80-0242ac130004",
+		"name": "NCDS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Reference",
+			"item": [
+				{
+					"name": "Symbols",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/symbols",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"symbols"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "Symbols Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/symbol/NDAQ",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"symbol",
+								"NDAQ"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Equities",
+			"item": [
+				{
+					"name": "Nasdaq",
+					"item": [
+						{
+							"name": "Realtime",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Trends",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/equities/trends",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"trends"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Delayed",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "BSX",
+					"item": [
+						{
+							"name": "Realtime",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/realtime/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"realtime",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/realtime/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"realtime",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/realtime/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"realtime",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/realtime/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"realtime",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Delayed",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/delayed/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"delayed",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/delayed/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"delayed",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/delayed/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"delayed",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/bsx/delayed/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"bsx",
+												"delayed",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "PSX",
+					"item": [
+						{
+							"name": "Realtime",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/realtime/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"realtime",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/realtime/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"realtime",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/realtime/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"realtime",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/realtime/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"realtime",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Delayed",
+							"item": [
+								{
+									"name": "Last Sale",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/delayed/equities/lastsale/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"delayed",
+												"equities",
+												"lastsale",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Trade",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/delayed/equities/lasttrade/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"delayed",
+												"equities",
+												"lasttrade",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Last Quote",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/delayed/equities/lastquote/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"delayed",
+												"equities",
+												"lastquote",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Snapshot",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersion}}/psx/delayed/equities/snapshot/NDAQ",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersion}}",
+												"psx",
+												"delayed",
+												"equities",
+												"snapshot",
+												"NDAQ"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Authenticate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.environment.set(\"AuthorizationToken\", pm.response.json().access_token)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"example_id\",\n    \"client_secret\": \"example_secret\"\n}"
+				},
+				"url": {
+					"raw": "{{BaseURL}}/{{ApiVersion}}/auth/token",
+					"host": [
+						"{{BaseURL}}"
+					],
+					"path": [
+						"{{ApiVersion}}",
+						"auth",
+						"token"
+					]
+				},
+				"description": "Authentication\n"
+			},
+			"response": []
+		}
+	]
+}
