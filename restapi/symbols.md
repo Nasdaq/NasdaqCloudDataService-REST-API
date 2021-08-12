@@ -1,4 +1,4 @@
-## All Symbol
+## All Symbols
 
 List all supported equities symbols.
 
