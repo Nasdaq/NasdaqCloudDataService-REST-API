@@ -22,7 +22,7 @@ none
 
 ```
 {
-    "symbol": "name",
+    "symbol": "string",
     [...]
 }
 ```
