@@ -38,8 +38,8 @@ none
 | Field | Name | Type | Description |
 |-------|------|------|-------------|
 |Instrument|instrument|string|The instrument identifier for the NASDAQ OMX or Global Access Program (GAP) Index.|
-|Issue Symbol|issueSymbol|string|A list of the security trading symbols for the component securities, as assigned by the Issue MIC|
-|Issue MIC|BB|issueMIC|The ISO 10383 Market Identification Code (MIC) of the component security’s primary|
+|Issue Symbol|issueSymbol|string|A list of the security trading symbols for the component securities, as assigned by the Issue MIC.|
+|Issue MIC|issueMIC|string|The ISO 10383 Market Identification Code (MIC) of the component security’s primary.|
 |Instrument Name|instrumentName|string|The Instrument Name or Index Name from NASDAQ or GAP.|
 
 
