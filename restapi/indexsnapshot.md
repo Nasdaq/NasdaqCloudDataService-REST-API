@@ -48,8 +48,10 @@ none
 |Net Change|netChange|number|Net chabge.|
 |Timestamp|timestamp|string|Trade timestamp, format: YYYY-MM-DDThh:mm:ss.s|
 
+##### Summary Types
+
 | Code | Value |
-|-------|------|-------|------|
+|-------|------|
 |EOD | End of Day Summary|
 |SOD | Start of Day Summary|
 |PDA | Prior Day Summary Add|
