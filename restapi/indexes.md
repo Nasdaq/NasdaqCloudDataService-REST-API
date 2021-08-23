@@ -1,4 +1,4 @@
-## All Symbols
+## All Indexes
 
 List all supported indexes instruments.
 
