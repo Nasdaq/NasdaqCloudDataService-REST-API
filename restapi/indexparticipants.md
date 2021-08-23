@@ -71,7 +71,7 @@ curl --location --request POST 'https://example.com/v1/indexparticipants/XXZZT' 
             "issueMIC": "YYYYY",
             "issueName": "Test Instrument 2"
         }
-        ],
+    ],
     "timeStamp": "2021-08-23T01:25:21.941"
 }
 ```
