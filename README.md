@@ -32,6 +32,10 @@ Nasdaq Cloud Data Service (NCDS) provides a modern and efficient method of deliv
 - [PSX BBO](http://www.nasdaqtrader.com/Trader.aspx?id=PLS)
 - [PSX Last Sale](http://www.nasdaqtrader.com/Trader.aspx?id=psxbasic)
 
+### Indexes & Exchange Traded Products (ETPs)
+
+- [Global Index Data Service](https://www.nasdaq.com/solutions/global-index-data-service-gids)
+
 ## Getting Started
 
 The customer service team will provide you with the API URL (`<base_url>`), username (`client_id`), and password (`client_secret`). Substitute for these placeholders with actual values in your code.
@@ -54,10 +58,25 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Snapshot](restapi/snapshot.md)
 - [`GET` Trends](restapi/trends.md)
 
+### Indexes & Exchange Traded Products (ETPs)
+
+- [`GET` Value](restapi/indexvalue.md)
+- [`GET` Snapshot](restapi/indexsnapshot.md)
+
+### Exchange Traded Products (ETPs)
+
+- [`GET` Value](restapi/etpvalue.md)
+- [`GET` Snapshot](restapi/etpsnapshot.md)
+
 ### Reference
 
 - [`GET` All Symbols](restapi/symbols.md)
 - [`GET` Symbol Details](restapi/symbol.md)
+- [`GET` All Indexes](restapi/indexes.md)
+- [`GET` Index Details](restapi/index.md)
+- [`GET` Index Participants](restapi/indexparticipants.md)
+- [`GET` All ETPs](restapi/etps.md)
+- [`GET` ETP Details](restapi/etp.md)
 
 ## Versioning
 
