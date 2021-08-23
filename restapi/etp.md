@@ -41,7 +41,7 @@ none
 |ETP Trading Symbol|symbol|string|Denotes the ETP instrument trading symbol for the NASDAQ OMX or Global Access Program (GAP) as assigned by the listing market.|
 |ETP Name|name|string|ETP instrument Name|
 |Financial Product Type|fpType|CC|(see table below)|
-|ETP IPV Symbol|etpIpvSymbol|string|Symbol identifying the Intraday Portfolio Value (IPV) to bedisseminated in the ETP IPV Valuemessage (i.e.: ABCD.IV; ABCDI)|
+|ETP IPV Symbol|etpIpvSymbol|string|Symbol identifying the Intraday Portfolio Value (IPV) (i.e.: ABCD.IV; ABCDI)|
 |State|BB|state|Denotes the current NASDAQ OMX or GAP state associated with the ETP IPV symbol in the directory message. |
 |NAV Symbol|navSymbol|string|Symbol identifying the Net Asset Value per Creation Unit (ie: ABCD.NV; ABCDN)|
 |Estimated Cash Per CU Symbol|ecuSymbol|string|Symbol identifying the Estimated Cash Per Creation Unit (ie: ABCD.EU; ABCDM)|
