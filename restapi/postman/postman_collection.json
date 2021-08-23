@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "22ae1eda-e0d1-11eb-ba80-0242ac130004",
+		"_postman_id": "e067d930-41f3-4cdf-9a9d-36381f0724a3",
 		"name": "NCDS",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -40,7 +40,7 @@
 					"response": []
 				},
 				{
-					"name": "Symbols Details",
+					"name": "Symbol Details",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -65,6 +65,164 @@
 								"reference",
 								"symbol",
 								"NDAQ"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "Indexes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/indexes",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"indexes"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "Index Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/index/NDX",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"index",
+								"NDX"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "Index Participants",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/indexparticipants/NDX",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"indexparticipants",
+								"NDX"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "ETPs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/etps",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"etps"
+							]
+						},
+						"description": "ReferanceEndPoint"
+					},
+					"response": []
+				},
+				{
+					"name": "ETP Details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{AuthorizationToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{BaseURL}}/{{ApiVersion}}/reference/etp/QQQ",
+							"host": [
+								"{{BaseURL}}"
+							],
+							"path": [
+								"{{ApiVersion}}",
+								"reference",
+								"etp",
+								"QQQ"
 							]
 						},
 						"description": "ReferanceEndPoint"
@@ -973,6 +1131,308 @@
 			]
 		},
 		{
+			"name": "Indexes",
+			"item": [
+				{
+					"name": "Realtime",
+					"item": [
+						{
+							"name": "Value",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/indexes/value/NDX",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"realtime",
+										"indexes",
+										"value",
+										"NDX"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						},
+						{
+							"name": "Snapshot",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/indexes/snapshot/NDX",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"realtime",
+										"indexes",
+										"snapshot",
+										"NDX"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Delayed",
+					"item": [
+						{
+							"name": "Value",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/indexes/value/NDX",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"delayed",
+										"indexes",
+										"value",
+										"NDX"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						},
+						{
+							"name": "Snapshot",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/indexes/snapshot/NDX",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"delayed",
+										"indexes",
+										"snapshot",
+										"NDX"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "ETPs",
+			"item": [
+				{
+					"name": "Realtime",
+					"item": [
+						{
+							"name": "Value",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/etps/value/QXV",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"realtime",
+										"etps",
+										"value",
+										"QXV"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						},
+						{
+							"name": "Snapshot",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/realtime/etps/snapshot/QXV",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"realtime",
+										"etps",
+										"snapshot",
+										"QXV"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Delayed",
+					"item": [
+						{
+							"name": "Value",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/etps/value/QXV",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"delayed",
+										"etps",
+										"value",
+										"QXV"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						},
+						{
+							"name": "Snapshot",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer {{AuthorizationToken}}",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{BaseURL}}/{{ApiVersion}}/nasdaq/delayed/indexes/snapshot/QXV",
+									"host": [
+										"{{BaseURL}}"
+									],
+									"path": [
+										"{{ApiVersion}}",
+										"nasdaq",
+										"delayed",
+										"indexes",
+										"snapshot",
+										"QXV"
+									]
+								},
+								"description": "ReferanceEndPoint"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Authenticate",
 			"event": [
 				{
@@ -996,7 +1456,9 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"client_id\": \"example_id\",\n    \"client_secret\": \"example_secret\"\n}"
+					"raw": "{\n    \"
+					
+					_id\": \"example_id\",\n    \"client_secret\": \"example_secret\"\n}"
 				},
 				"url": {
 					"raw": "{{BaseURL}}/{{ApiVersion}}/auth/token",
