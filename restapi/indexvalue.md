@@ -1,10 +1,10 @@
 ## Index Value
 
-Get intraday value for an index instrument.
+Get intraday value for one or more index instruments.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/indexes/value/<instrument>`
+`GET` `https://<base_url>/v1/<source>/<offset>/indexes/value/<instruments>`
 
 #### URI Parameters
 
@@ -12,7 +12,7 @@ Get intraday value for an index instrument.
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<instrument>` - Identifier for the index 
+`<instruments>` - Index identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,11 +25,13 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "instrument": "string",
     "tickValue": number,
     "timestamp": "string"
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -54,9 +56,11 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/indexes/v
 #### Response
 
 ```
-{
+[
+  {
     "instrument": "NDX",
     "tickValue": 15312.81588491499,
     "timestamp": "2021-08-23T17:10:35.125"
-}
+  }
+]
 ```
