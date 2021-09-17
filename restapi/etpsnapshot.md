@@ -1,10 +1,10 @@
 ## Exchange Traded Products (ETPs) Snapshot
 
-The latest snapshot of stats, for an ETP symbol.
+The latest snapshot of stats, for one or more ETP symbols.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/etps/snapshot/<etpIpvSymbol>`
+`GET` `https://<base_url>/v1/<source>/<offset>/etps/snapshot/<etpIpvSymbols>`
 
 #### URI Parameters
 
@@ -12,7 +12,7 @@ The latest snapshot of stats, for an ETP symbol.
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<etpIpvSymbol>` - Identifier for the ETP 
+`<etpIpvSymbols>` - ETP identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,7 +25,8 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "etpIpvSymbol": "string",
     "summaryType": "string",
     "sodValue": number,
@@ -34,7 +35,8 @@ none
     "eodValue": number,
     "netChange": number,
     "timestamp": "string"
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -73,7 +75,8 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/etps/snap
 #### Response
 
 ```
-{
+[
+  {
     "etpIpvSymbol": "QXV",
     "summaryType": "EOD",
     "sodValue": 367.87,
@@ -82,5 +85,6 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/etps/snap
     "eodValue": 0.0,
     "netChange": 0.0,
     "timestamp": "2021-08-23T17:16:05.086"
-}
+  }
+]
 ```
