@@ -1,10 +1,10 @@
 ## Index Snapshot
 
-The latest snapshot of stats, for an index instrument.
+The latest snapshot of stats, for one or more index instruments.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/indexes/snapshot/<instrument>`
+`GET` `https://<base_url>/v1/<source>/<offset>/indexes/snapshot/<instruments>`
 
 #### URI Parameters
 
@@ -12,7 +12,7 @@ The latest snapshot of stats, for an index instrument.
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<instrument>` - Identifier for the index 
+`<instruments>` - Index identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,7 +25,8 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "instrument": "string",
     "summaryType": "string",
     "sodValue": number,
@@ -34,7 +35,8 @@ none
     "eodValue": number,
     "netChange": number,
     "timestamp": "string"
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -73,7 +75,8 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/indexes/s
 #### Response
 
 ```
-{
+[
+  {
     "instrument": "NDX",
     "summaryType": "EOD",
     "sodValue": 15092.56790488493,
@@ -82,5 +85,6 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/indexes/s
     "eodValue": 0.0,
     "netChange": 0.0,
     "timestamp": "2021-08-23T17:16:02.607"
-}
+  }
+]
 ```
