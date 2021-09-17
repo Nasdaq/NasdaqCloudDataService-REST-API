@@ -1,18 +1,18 @@
 ## Last Sale
 
-The latest last sale eligible transaction, according to condition rules, for a symbol.
+The latest last sale eligible transaction, according to condition rules, for one or more symbols.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/equities/lastsale/<symbol>`
+`GET` `https://<base_url>/v1/<source>/<offset>/equities/lastsale/<symbols>`
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BSX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<symbol>` - Identifier for the security 
+`<symbols>` - Security identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,7 +25,8 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "symbol": "string",
     "timestamp": "string",
     "price": number,
@@ -34,7 +35,8 @@ none
     "exchange": "string",
     "securityClass": "string",
     "changeIndicator": number
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -133,7 +135,8 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
 #### Response
 
 ```
-{
+[
+  {
     "symbol": "ZVZZT",
     "timestamp": "2021-07-09T09:17:01.383",
     "price": 10.15,
@@ -142,5 +145,6 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
     "exchange": "Q",
     "securityClass": "Q",
     "changeIndicator": 0
-}
+  }
+]
 ```
