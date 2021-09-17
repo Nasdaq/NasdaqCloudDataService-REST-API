@@ -1,18 +1,18 @@
 ## Snapshot
 
-The latest snapshot of stats, according to condition rules, for a symbol. 
+The latest snapshot of stats, according to condition rules, for one or more symbols. 
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/equities/snapshot/<symbol>`
+`GET` `https://<base_url>/v1/<source>/<offset>/equities/snapshot/<symbols>`
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BSX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<symbol>` - Identifier for the security 
+`<symbols>` - Security identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,7 +25,8 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "symbol": "string",
     "timestamp": "string",
     "open": number,
@@ -38,7 +39,8 @@ none
     "previousClose": number,
     "netChange": number,
     "percentChange": number
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -72,7 +74,8 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
 #### Response
 
 ```
-{
+[
+  {
     "symbol": "ZVZZT",
     "timestamp": "2021-07-08T13:30:05.323",
     "open": 10.02,
@@ -85,5 +88,6 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
     "previousClose": 10.02,
     "netChange": 0.009999999999999787,
     "percentChange": 0.09980039920159468
-}
+  }
+]
 ```
