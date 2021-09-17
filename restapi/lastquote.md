@@ -1,18 +1,18 @@
 ## Last Quote
 
-The latest last eligible quote, according to condition rules, for a symbol.
+The latest last eligible quote, according to condition rules, for one or more symbols.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/equities/lastquote/<symbol>`
+`GET` `https://<base_url>/v1/<source>/<offset>/equities/lastquote/<symbols>`
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BSX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<symbol>` - Identifier for the security 
+`<symbols>` - Security identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,7 +25,8 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "symbol": "string",
     "timestamp": "string",
     "bidPrice": number,
@@ -34,7 +35,8 @@ none
     "askPrice": number,
     "askSize": number,
     "askVenue": "string"
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -75,7 +77,8 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
 #### Response
 
 ```
-{
+[
+  {
     "symbol": "ZVZZT",
     "timestamp": "2021-07-09T09:04:32.517",
     "bidPrice": 9.99,
@@ -84,5 +87,6 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/
     "askPrice": 10.15,
     "askSize": 1081,
     "askVenue": "Q"
-}
+  }
+]
 ```
