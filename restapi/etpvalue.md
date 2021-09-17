@@ -1,10 +1,10 @@
 ## Exchange Traded Product (ETP) Value
 
-Get intraday value for an index instrument.
+Get intraday value for one or more ETP symbols.
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/etps/value/<etpIpvSymbol>`
+`GET` `https://<base_url>/v1/<source>/<offset>/etps/value/<etpIpvSymbols>`
 
 #### URI Parameters
 
@@ -12,7 +12,7 @@ Get intraday value for an index instrument.
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<etpIpvSymbol>` - Identifier for the ETP 
+`<etpIpvSymbols>` - ETP identifier(s): if more than one, use comma separated list
 
 #### Headers
 
@@ -25,11 +25,13 @@ none
 #### Response Body
 
 ```
-{
+[
+  {
     "etpIpvSymbol": "string",
     "ipvValue": number,
     "timestamp": "string"
-}
+  }
+]
 ```
 
 | Field | Name | Type | Description |
@@ -54,9 +56,11 @@ curl --location --request POST 'https://example.com/v1/nasdaq/realtime/etps/valu
 #### Response
 
 ```
-{
+[
+  {
     "etpIpvSymbol": "QXV",
     "ipvValue": 373.23,
     "timeStamp": "2021-08-23T17:15:59.212"
-}
+  }
+]
 ```
