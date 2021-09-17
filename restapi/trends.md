@@ -8,7 +8,7 @@ Top 5 gaining & declining equities. For market hours only.
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BSX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
