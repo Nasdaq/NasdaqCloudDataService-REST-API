@@ -58,7 +58,7 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Snapshot](restapi/snapshot.md)
 - [`GET` Trends](restapi/trends.md)
 
-### Indexes & Exchange Traded Products (ETPs)
+### Indexes
 
 - [`GET` Value](restapi/indexvalue.md)
 - [`GET` Snapshot](restapi/indexsnapshot.md)
