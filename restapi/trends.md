@@ -10,7 +10,7 @@ Top 5 gaining & declining equities. For market hours only.
 
 `<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
 
-`<offset>` - Real-time only; acceptable values: `realtime`
+`<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
 #### Headers
 
