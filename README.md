@@ -57,6 +57,7 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Last Quote](restapi/lastquote.md)
 - [`GET` Snapshot](restapi/snapshot.md)
 - [`GET` Trends](restapi/trends.md)
+- [`GET` Bars](restapi/bars.md)
 
 ### Indexes
 
