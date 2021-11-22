@@ -32,11 +32,11 @@ none
 
 | Field | Name | Type | Description |
 |-------|------|------|-------------|
-|Symbol|symbol|string |Identifier of the security used to in various Nasdaq connectivity protocols and NASDAQ market data feeds. Typical identifiers have 1-5 character root symbol and then 1-3 characters for suffixes. Allow up to 14 characters.|
+|Symbol|symbol|string |Identifier of the security used to in various Nasdaq connectivity protocols and Nasdaq market data feeds. Typical identifiers have 1-5 character root symbol and then 1-3 characters for suffixes. Allow up to 14 characters.|
 |Security Name|securityName|string |The name of the security including additional information, if applicable. Examples are security type (common stock, preferred stock, etc.) or class (class A or B, etc.). Allow up to 255 characters.|
 |Listing Exchange|listingExchange|string |The listing venue or market of a security  (see table below).|
 |ETF|etf|boolean|Is this security an Exchange Traded Fund (ETF).|
-|IPO Flag|ipoFLag|string|Did the security IPO today (Y|N).|
+|IPO Flag|ipoFLag|string|For Nasdaq-Listed securities, instrument is set up as a new IPO security: Y or N.|
 
 ##### Venues
 
