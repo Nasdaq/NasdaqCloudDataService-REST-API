@@ -25,7 +25,8 @@ none
     "symbol": "string",
     "securityName": "string",
     "listingExchange": "string"
-    "etf": boolean
+    "etf": boolean,
+    "ipoFlag": "string"
 }
 ```
 
@@ -35,6 +36,7 @@ none
 |Security Name|securityName|string |The name of the security including additional information, if applicable. Examples are security type (common stock, preferred stock, etc.) or class (class A or B, etc.). Allow up to 255 characters.|
 |Listing Exchange|listingExchange|string |The listing venue or market of a security  (see table below).|
 |ETF|etf|boolean|Is this security an Exchange Traded Fund (ETF).|
+|IPO Flag|ipoFLag|string|Did the security IPO today (Y|N).|
 
 ##### Venues
 
@@ -67,6 +69,7 @@ curl --location --request POST 'https://example.com/v1/reference/symbol/ZXZZT' \
     "symbol": "ZXZZT",
     "securityName": "NASDAQ TEST STOCK",
     "etf": false,
-    "listingExchange": "Q"
+    "listingExchange": "Q",
+    "ipoFlag": "N",
 }
 ```
