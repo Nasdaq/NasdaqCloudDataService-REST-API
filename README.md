@@ -6,12 +6,12 @@ Nasdaq Cloud Data Service (NCDS) provides a modern and efficient method of deliv
 
 - [Products Currently Available](#products-currently-available)
 - [Getting Started](#getting-started)
-- [Authentication](#suthentication)
+- [Authentication](#authentication)
 - [API Resources](#api-resources)
 - [Versioning](#versioning)
 - [HTTP Response Codes](#http-response-codes)
 - [Tutorial](#tutorial)
-- [License](#License)
+- [License](#license)
 
 ## Products Currently Available
 
@@ -35,6 +35,10 @@ Nasdaq Cloud Data Service (NCDS) provides a modern and efficient method of deliv
 ### Indexes & Exchange Traded Products (ETPs)
 
 - [Global Index Data Service](https://www.nasdaq.com/solutions/global-index-data-service-gids)
+
+### Options (NBBO and Trades)
+
+- [Nasdaq Smart Options](https://www.nasdaq.com/solutions/nasdaq-smart-options)
 
 ## Getting Started
 
@@ -69,6 +73,11 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Value](restapi/etpvalue.md)
 - [`GET` Snapshot](restapi/etpsnapshot.md)
 
+### Options
+
+- [`GET` Chain](restapi/chain.md)
+- [`GET` Prices](restapi/prices.md)
+
 ### Reference
 
 - [`GET` All Symbols](restapi/symbols.md)
@@ -78,6 +87,7 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Index Participants](restapi/indexparticipants.md)
 - [`GET` All ETPs](restapi/etps.md)
 - [`GET` ETP Details](restapi/etp.md)
+- [`GET` Option Contracts](restapi/contracts.md)
 
 ## Versioning
 
