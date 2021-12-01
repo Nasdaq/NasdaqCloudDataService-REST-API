@@ -47,7 +47,7 @@ none
 |Symbol|symbol|string|Underlying symbol for option.|
 |Expiration Date|expiration|string|The date on which the option expires. |
 |Strike Price|strikePrice|number|The strike price.|
-|Option Type|optionType|string|The type of option (put or call).|
+|Option Type|optionType|string|The type of option (P = put or C = call).|
 |Last Price|lastPrice|number|The price of the last trade.|
 |Volume|volume|number|The day's traded volume of this options contract.|
 |Ask Price|askPrice|number|The price of the top ask order.|
