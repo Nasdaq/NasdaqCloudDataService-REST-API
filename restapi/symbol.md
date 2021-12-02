@@ -36,7 +36,7 @@ none
 |Security Name|securityName|string |The name of the security including additional information, if applicable. Examples are security type (common stock, preferred stock, etc.) or class (class A or B, etc.). Allow up to 255 characters.|
 |Listing Exchange|listingExchange|string |The listing venue or market of a security  (see table below).|
 |ETF|etf|boolean|Is this security an Exchange Traded Fund (ETF).|
-|IPO Flag|ipoFLag|string|For Nasdaq-Listed securities, instrument is set up as a new IPO security: Y or N.|
+|IPO Flag|ipoFlag|string|For Nasdaq-Listed securities, instrument is set up as a new IPO security: Y or N.|
 
 ##### Venues
 
