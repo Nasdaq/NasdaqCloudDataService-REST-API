@@ -128,7 +128,7 @@ Level 4 - Special sale condition codes (field is case sensitive)
 #### Request
 
 ```
-curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/lastsale/ZVZZT' \
+curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/lastsale/ZVZZT' \
 --header "Authorization: Bearer example_token"
 ```
 

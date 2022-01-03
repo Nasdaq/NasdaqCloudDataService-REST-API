@@ -67,7 +67,7 @@ none
 #### Request
 
 ```
-curl --location --request POST 'https://example.com/v1/nasdaq/realtime/equities/snapshot/ZVZZT' \
+curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/snapshot/ZVZZT' \
 --header "Authorization: Bearer example_token"
 ```
 
