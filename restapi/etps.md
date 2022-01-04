@@ -41,7 +41,7 @@ none
 #### Request
 
 ```
-curl --location --request POST 'https://example.com/v1/reference/etps' \
+curl --location --request GET 'https://example.com/v1/reference/etps' \
 --header "Authorization: Bearer example_token"
 ```
 

@@ -41,7 +41,7 @@ none
 #### Request
 
 ```
-curl --location --request POST 'https://example.com/v1/reference/symbols' \
+curl --location --request GET 'https://example.com/v1/reference/symbols' \
 --header "Authorization: Bearer example_token"
 ```
 
