@@ -23,7 +23,7 @@ none
 ```
 {
     "instrument": "name",
-    [...]
+    "instrumentName": "name",
 }
 ```
 
@@ -48,8 +48,14 @@ curl --location --request GET 'https://example.com/v1/reference/indexes' \
 #### Response
 
 ```
-{
-    "COMP": "NASDAQ Composite",
-    "NDX": "NASDAQ-100"
-}
+[
+    {
+        "instrument": "COMP",
+        "instrumentName": "NASDAQ Composite"
+    },
+    {
+        "instrument": "NDX",
+        "instrumentName": "NASDAQ-100"
+    }
+]
 ```
