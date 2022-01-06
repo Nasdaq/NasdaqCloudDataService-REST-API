@@ -23,7 +23,7 @@ none
 ```
 {
     "symbol": "string",
-    [...]
+    "securityName": "string"
 }
 ```
 
@@ -48,9 +48,18 @@ curl --location --request GET 'https://example.com/v1/reference/symbols' \
 #### Response
 
 ```
-{
-    "ZVZZT": "NASDAQ TEST STOCK",
-    "ZWZZT": "NASDAQ TEST STOCK",
-    "ZXZZT": "NASDAQ TEST STOCK"
-}
+[
+    {
+        "symbol": "ZVZZT",
+        "securityName": "NASDAQ TEST STOCK"
+    },
+    {
+        "symbol": "ZWZZT",
+        "securityName": "NASDAQ TEST STOCK"
+    },
+    {
+        "symbol": "ZXZZT",
+        "securityName": "NASDAQ TEST STOCK"
+    }
+]
 ```
