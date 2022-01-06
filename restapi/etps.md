@@ -23,6 +23,7 @@ none
 ```
 {
     "symbol": "string",
+    "name": "string",
     [...]
 }
 ```
@@ -48,8 +49,14 @@ curl --location --request GET 'https://example.com/v1/reference/etps' \
 #### Response
 
 ```
-{
-    "QQQ": "PowerShares QQQ Trust, Ser 1",
-    "QQQA": "ProShares Nasdaq-100 Dorsey Wright Momentum ETF"
-}
+[
+    {
+        "symbol": "QQQ",
+        "name": "PowerShares QQQ Trust, Ser 1"
+    },
+    {
+        "symbol": "QQQA",
+        "name": "ProShares Nasdaq-100 Dorsey Wright Momentum ETF"
+    }
+]
 ```
