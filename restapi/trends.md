@@ -1,6 +1,6 @@
 ## Trends
 
-Top 5 gaining & declining equities. For market hours only.
+Top 10 gaining & declining equities. For market hours only.
 
 ##### Endpoint
 
@@ -117,7 +117,8 @@ curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/t
       "netChange": 1.08,
       "percentChange": 47.7876,
       "symbol": "GGHHII"
-    }
+    },
+    [...]
   ],
   "decliners": [
     {
@@ -154,7 +155,8 @@ curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/t
       "netChange": -0.62,
       "percentChange": -21.5278,
       "symbol": "YYZZAA"
-    }
+    },
+    [...]
   ]
 }
 ```
