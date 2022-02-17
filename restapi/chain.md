@@ -4,13 +4,13 @@ A list of all tradable option instruments for an underlying symbol and a snapsho
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/nasdaq/<offset>/options/chain/<symbols>`
+`GET` `https://<base_url>/v1/nasdaq/<offset>/options/chain/<symbol>`
 
 #### URI Parameters
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<symbols>` - Security identifier
+`<symbol>` - Security identifier
 
 #### Headers
 
