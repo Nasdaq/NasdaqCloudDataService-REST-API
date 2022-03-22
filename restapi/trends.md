@@ -19,6 +19,7 @@ Top 20 gaining & declining equities. For market hours only.
 #### Request Body
 
 optional component
+
 gainers|decliners|mostactivebyvolume|mostactivebydollarvolume
 
 #### Response Body
