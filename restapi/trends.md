@@ -1,6 +1,6 @@
 ## Trends
 
-Top 20 gaining & declining equities. For market hours only.
+Top 20 gaining, declining, most active by volume and most active by dollar volume equities. For market hours only.
 
 ##### Endpoint
 
@@ -20,7 +20,7 @@ Top 20 gaining & declining equities. For market hours only.
 
 optional component
 
-gainers|decliners|mostactivebyvolume|mostactivebydollarvolume
+gainers | decliners | mostactivebyvolume | mostactivebydollarvolume
 
 #### Response Body
 
