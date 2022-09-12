@@ -8,7 +8,7 @@ The latest last eligible quote, according to condition rules, for one or more sy
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
