@@ -32,7 +32,7 @@ Nasdaq Cloud Data Service (NCDS) provides a modern and efficient method of deliv
 - [PSX BBO](http://www.nasdaqtrader.com/Trader.aspx?id=PLS)
 - [PSX Last Sale](http://www.nasdaqtrader.com/Trader.aspx?id=psxbasic)
 
-#### U.S. Equity Markets
+#### All U.S. Equity Markets
 - [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
 
 ### Indexes & Exchange Traded Products (ETPs)
