@@ -1,20 +1,22 @@
-## Bars (Nasdaq Markets)
+## Bars (All U.S. Equity Markets)
 
-Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol(up to 5 days of history). Eligibility rules are applied only during market hours(Excluded pre-market and post-market).
+Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol (up to 10 years of history).
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/equities/bars/<symbol>/<precision>/<start-date-and-time>/<end-date-and-time>`
+`GET` `https://<base_url>/v2/cqt/<offset>/equities/bars/<symbol>/<precision>/<adjusted>/<date-range>`
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
-
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<precision>` - Bar precision intervals; acceptable values: `5second`, `1minute`, `5minute`
+`<symbols>` - Security identifier(s): if more than one, use comma separated list
 
-`<start-date-and-time>` & `<end-date-and-time>` - Bars date/time ranges (Eastern Time)
+`<precision>` - Bar precision intervals; acceptable values: `5second`, `1minute`, `5minute`, `10minute`, `15minute`, `30minute`, `1day`, `1week`, `1month`
+
+`<adjusted>` - Corporate actions adjusted: currently, only `false` supprted (e.g. unadjusted O/H/L/C/V) 
+
+`<date-range>` - Bar date range; acceptable values: `1d` (1 day), `5d` (5 days), `1m` (1 month), `3m` (3 months), `6` (6 months), `1y` (1 year), `5y` (5 years), `max` (maximum range), `ytd` (year to date)
 
 #### Headers
 
@@ -34,7 +36,9 @@ none
         "high": 206.64,
         "low": 0.0,
         "close": 206.57,
-        "size": 7965
+        "size": 7965,
+        "symbol": "ZVZZT",
+        "adjusted": false
     },
     [...]
 ]
@@ -49,6 +53,23 @@ none
 | Low| low| number | The low is indicated by the bottom of the shadow or tail below the body. If the open or close was the lowest price, then there will be no lower shadow.|
 | Close| close| number | Last trade of that precision. The close price is for the end of the one-minute period, not the trading session.|
 | Size| size| number | Aggregated shares in that precision. The size of the trades in the time segment selected.|
+| Symbol| symbol| string  ||
+| Adjusted Values | adjusted| boolean  |Corporate actions adjusted values.|
+
+
+##### Precision & Date Range Paremter Details
+
+| Range | Decription | Finest Precision |
+|-------|------|------|
+| YTD | Year to date. Time interval would be 1 day. | 1 day |
+| max | All available data up to 15 years. Time interval would be 1 month or 1 week. | 1 week |
+| 5y | Five years. Time interval for 5Y would be 1 month or 1 week. | 1 week |
+| 1y | One year. Time interval for 1Y would be 1 week or 1 day. | 1 day |
+| 6m | Six months. Time interval for 6m would be 1 day. | 1 day |
+| 3m | Three months. Time interval for 3m would be 1 day. | 1 day |
+| 1m | One month. Time interval for 1m would be 1 day. | 1 day |
+| 5d | Five days. Time interval for 5d would be 30mins/15mins/10mins/5mins. | 5 mins |
+| 1d | One day. Time interval would be 5seconds/1minute/5minutes. | 5 seconds |
 
 
 ---
@@ -59,7 +80,7 @@ none
 #### Request
 
 ```
-curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/bars/ZVZZT/1minute/2021-10-29T09:30/2021-20-29T10:00' \
+curl --location --request GET 'https://example.com/v2/cqt/realtime/equities/bars/ZVZZT/5minute/false/5d' \
 --header "Authorization: Bearer example_token"
 ```
 
@@ -73,15 +94,19 @@ curl --location --request GET 'https://example.com/v1/nasdaq/realtime/equities/b
         "high": 206.64,
         "low": 0.0,
         "close": 206.57,
-        "size": 7965
+        "size": 7965,
+        "symbol": "ZVZZT",
+        "adjusted": false
     },
     {
-        "timestamp": "2021-10-29T09:30:01.000",
+        "timestamp": "2021-10-29T09:30:05.000",
         "open": 206.99,
         "high": 207.01,
         "low": 206.22,
         "close": 0.0,
-        "size": 1234
+        "size": 1234,
+        "symbol": "ZVZZT",
+        "adjusted": false
     }
 ]
 ```
