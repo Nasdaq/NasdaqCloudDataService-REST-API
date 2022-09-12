@@ -8,7 +8,7 @@ The latest price, regardless of conditions, for one or more symbols.
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
