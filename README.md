@@ -21,6 +21,7 @@ Nasdaq Cloud Data Service (NCDS) provides a modern and efficient method of deliv
 
 - [Nasdaq Basic](https://www.nasdaq.com/solutions/nasdaq-basic)
 - [Nasdaq Last Sale+](https://www.nasdaq.com/solutions/nasdaq-last-sale) 
+- [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
 
 #### Nasdaq BX
 
