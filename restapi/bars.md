@@ -1,4 +1,4 @@
-## Bars (Naasdaq Markets)
+## Bars (Nasdaq Markets)
 
 Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol(up to 5 days of history). Eligibility rules are applied only during market hours(Excluded pre-market and post-market).
 
