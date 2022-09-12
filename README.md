@@ -65,7 +65,7 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Snapshot](restapi/snapshot.md)
 - [`GET` Trends](restapi/trends.md)
 - [`GET` Bars (Nasdaq Markets)](restapi/bars.md)
-- [`GET` Bars (All US Equity Markets)](restapi/bars-all.md)
+- [`GET` Bars (All U.S. Equity Markets)](restapi/bars-all.md)
 
 ### Indexes
 
