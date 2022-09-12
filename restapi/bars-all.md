@@ -1,6 +1,6 @@
 ## Bars (All U.S. Equity Markets)
 
-Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol (up to 10 years of history).
+Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol (up to 15 years of history).
 
 ##### Endpoint
 
