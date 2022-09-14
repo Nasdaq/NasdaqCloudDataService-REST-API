@@ -44,7 +44,7 @@ none
 | Date + Timestamp | timestamp  | string  | Trade timestamp, format: YYYY-MM-DDThh:mm:ss.s |
 | Symbol| symbol| string  ||
 | Price| price| number  ||
-| Size| siize| number ||
+| Size| size| number ||
 | Exchange| exchange| string  | Exchange where trade took place (see table below)|
 | Conditions| conditions | string  | SAle condition modifier consists of four levels  (see table below)|
 | Security Class| securityClass| string  |Indicates Listing Venue (see table below)|
