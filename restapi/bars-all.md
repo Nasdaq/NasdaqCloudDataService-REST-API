@@ -57,9 +57,9 @@ none
 | Adjusted Values | adjusted| boolean  |Corporate actions adjusted values.|
 
 
-##### Precision & Date Range Paremter Details
+##### Precision & Date Range Parameter Details
 
-| Range | Decription | Finest Precision |
+| Range | Description | Finest Precision |
 |-------|------|------|
 | YTD | Year to date. Time interval would be 1 day. | 1 day |
 | max | All available data up to 15 years. Time interval would be 1 month or 1 week. | 1 week |
