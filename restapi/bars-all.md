@@ -62,7 +62,7 @@ none
 | Range | Description | Finest Precision |
 |-------|------|------|
 | YTD | Year to date. Time interval would be 1 day. | 1 day |
-| max | All available data up to 15 years. Time interval would be 1 month or 1 week. | 1 week |
+| max | All available data up to 10 years. Time interval would be 1 month or 1 week. | 1 week |
 | 5y | Five years. Time interval for 5Y would be 1 month or 1 week. | 1 week |
 | 1y | One year. Time interval for 1Y would be 1 week or 1 day. | 1 day |
 | 6m | Six months. Time interval for 6m would be 1 day. | 1 day |
