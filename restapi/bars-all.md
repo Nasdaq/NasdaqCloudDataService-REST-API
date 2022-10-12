@@ -1,14 +1,16 @@
-## Bars (All U.S. Equity Markets)
+## Bars (Nasdaq and CQT)
 
 Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol (up to 10 years of history).
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v2/cqt/<offset>/equities/bars/<symbol>/<precision>/<adjusted>/<date-range>`
+`GET` `https://<base_url>/v2/<source>/<offset>/equities/bars/<symbol>/<precision>/<adjusted>/<date-range>`
 
 #### URI Parameters
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
+
+`<source>` - Data source; Acceptable values: `Nasdaq`, `CQT`, or `OTCBB`
 
 `<symbols>` - Security identifier(s): if more than one, use comma separated list
 
