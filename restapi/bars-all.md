@@ -1,4 +1,4 @@
-## Bars (Nasdaq and CQT)
+## Bars (Nasdaq, CQT, and OTCBB)
 
 Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol (up to 10 years of history).
 
