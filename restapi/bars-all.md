@@ -18,7 +18,7 @@ Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol with 10+ years
 
 `<adjusted>` - Corporate actions adjusted: currently, only `false` supprted (e.g. unadjusted O/H/L/C/V) 
 
-`<date-range>` - Bar date range; acceptable values: `1d` (1 day), `5d` (5 days), `1m` (1 month), `3m` (3 months), `6` (6 months), `1y` (1 year), `5y` (5 years), `max` (maximum range), `ytd` (year to date)
+`<date-range>` - Bar date range; acceptable values: `1d` (1 day), `5d` (5 days), `1m` (1 month), `3m` (3 months), `6m` (6 months), `1y` (1 year), `5y` (5 years), `max` (maximum range), `ytd` (year to date)
 
 #### Headers
 
