@@ -19,29 +19,29 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 #### The Nasdaq Stock Market
 
-- [Nasdaq Basic](https://www.nasdaq.com/solutions/nasdaq-basic)
-- [Nasdaq Last Sale+](https://www.nasdaq.com/solutions/nasdaq-last-sale) 
+- [Nasdaq Basic](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NasdaqBasic-Cloud.pdf)
+- [Nasdaq Last Sale+](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NLSPlus-cloud.pdf) 
 
 #### Nasdaq BX
 
-- [BX BBO](http://www.nasdaqtrader.com/Trader.aspx?id=bxbasic)
-- [BX Last Sale](http://www.nasdaqtrader.com/Trader.aspx?id=BLS)
+- [BX BBO](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/BX_BBO_Cloud.pdf)
+- [BX Last Sale](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/BLS_Cloud.pdf)
 
 #### Nasdaq PSX
 
-- [PSX BBO](http://www.nasdaqtrader.com/Trader.aspx?id=PLS)
-- [PSX Last Sale](http://www.nasdaqtrader.com/Trader.aspx?id=psxbasic)
+- [PSX BBO](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PSX_BBO_Cloud.pdf)
+- [PSX Last Sale](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PLS_Cloud.pdf)
 
 #### All U.S. Equity Markets
 - [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
 
 ### Indexes & Exchange Traded Products (ETPs)
 
-- [Global Index Data Service](https://www.nasdaq.com/solutions/global-index-data-service-gids)
+- [Global Index Data Service](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GIDS_Cloud.pdf)
 
 ### Options (NBBO and Trades)
 
-- [Nasdaq Smart Options](https://www.nasdaq.com/solutions/nasdaq-smart-options)
+- [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
 
 ## Getting Started
 
