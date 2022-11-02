@@ -53,7 +53,7 @@ none
 | Low| low| number | The lowest price for the symbol in the given time period|
 | Close| close| number | The close price for the symbol in the given time period|
 | Last Sale| lastSale| number | The latest last sale eligible transaction|
-| Volume| volume| number | The trading volume of the symbol in the given time period|
+| Volume| volume| number | The trading volume of the symbol in the given time period. NLS+ Volume is consolidated|
 | Last Trade| lastTrade| number | The most recent price of the symbol|
 | Previous Day Close | previousClose | number | The adjusted close price for the symbol for the previous day|
 | Dollar volume | dollarVolume | number | The dollar amount for shares traded today|
