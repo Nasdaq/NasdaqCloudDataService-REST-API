@@ -111,7 +111,7 @@ decliners       |               ||
 |Last Trade      |lastTrade      |number |If outside of market hours, these prices could be different|
 |Net Change      |netChange      |number|The value of the change from the previous day|
 |Percent Change  |percentChange  |number|The value of the change from the previous day|
-|Cummulative Volume |cummulativeVolume      |number|The total number of shared traded today|
+|Cummulative Volume |cummulativeVolume      |number|The trading volume of the symbol in the given time period. NLS+ Volume is consolidated|
 |Dollar Amount Traded  |dollarAmountTraded  |number|The dollar amount of shares traded today|
 
 ---
