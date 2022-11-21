@@ -14,7 +14,7 @@ Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol with 10+ years
 
 `<symbols>` - Security identifier(s): if more than one, use comma separated list
 
-`<precision>` - Bar precision intervals; acceptable values: `5second`, `1minute`, `5minute`, `10minute`, `15minute`, `30minute`, `1day`, `1week`, `1month`
+`<precision>` - Bar precision intervals; acceptable values: `1minute`, `5minute`, `10minute`, `15minute`, `30minute`, `1day`, `1week`, `1month`
 
 `<adjusted>` - Corporate actions adjusted: currently, only `false` supprted (e.g. unadjusted O/H/L/C/V) 
 
@@ -71,7 +71,7 @@ none
 | 3m | Three months. Time interval for 3m would be 1day. | 1 day |
 | 1m | One month. Time interval for 1m would be 1day. | 1 day |
 | 5d | Five days. Time interval for 5d would be 30minute/15minute/10minute/5minute. | 5 minutes |
-| 1d | One day. Time interval would be 5second/1minute/5minute. | 5 seconds |
+| 1d | One day. Time interval would be 1minute/5minute. | 5 seconds |
 
 
 ---
