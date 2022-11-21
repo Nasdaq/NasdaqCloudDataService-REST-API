@@ -12,7 +12,7 @@ Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol(up to 5 days o
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
-`<precision>` - Bar precision intervals; acceptable values: `5second`, `1minute`, `5minute`
+`<precision>` - Bar precision intervals; acceptable values: `1minute`, `5minute`
 
 `<start-date-and-time>` & `<end-date-and-time>` - Bars date/time ranges (Eastern Time)
 
