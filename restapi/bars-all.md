@@ -110,7 +110,7 @@ curl --location --request GET 'https://example.com/v2/cqt/realtime/equities/bars
                 "v": 7965 
             }, 
             [...] 
-        ],
+        ]
 }
 ```
 
