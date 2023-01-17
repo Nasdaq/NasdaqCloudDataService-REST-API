@@ -67,8 +67,6 @@ none
 | Low| l| number | The low is indicated by the bottom of the shadow or tail below the body. If the open or close was the lowest price, then there will be no lower shadow.|
 | Close| c| number | Last trade of that precision. The close price is for the end of the one-minute period, not the trading session.|
 | Volume| v| number | Aggregated shares in that precision. The size of the trades in the time segment selected.|
-| Symbol| symbol| string  ||
-| Adjusted Values | adjusted| boolean  |Corporate actions adjusted values.|
 
 
 ##### Precision & Date Range Parameter Details
