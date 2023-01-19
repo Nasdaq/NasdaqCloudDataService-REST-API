@@ -43,7 +43,7 @@ none
 
 | Field | Name | Type | Description |
 |-------|------|------|-------------|
-|Date + Timestamp|timestamp|string|Format: YYYY-MM-DDThh:mm:ss.s|
+|Date + Timestamp|t|string|Format: YYYY-MM-DDThh:mm:ss.s|
 | Open| o| number | The open price is for the beginning of the one-minute period, not the trading session.|
 | High| h| number | The high price during the candlestick period is indicated by the top of the shadow or tail above the body. If the open or close was the highest price, then there will be no upper shadow.|
 | Low| l| number | The low is indicated by the bottom of the shadow or tail below the body. If the open or close was the lowest price, then there will be no lower shadow.|
