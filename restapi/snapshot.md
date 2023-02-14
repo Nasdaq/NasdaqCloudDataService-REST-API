@@ -8,7 +8,7 @@ The latest snapshot of stats, according to condition rules, for one or more symb
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`, `OTCBB`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
