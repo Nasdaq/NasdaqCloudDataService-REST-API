@@ -1,6 +1,6 @@
 ## Prices
 
-The pption price and trading details for a given option instrument for current trading day. These are snapshots on the current trading day and prices do not carry over to the next day. 
+The option price and trading details for a given option instrument for current trading day. These are snapshots on the current trading day and prices do not carry over to the next day. 
 
 ##### Endpoint
 
