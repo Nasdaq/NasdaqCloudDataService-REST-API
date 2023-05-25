@@ -46,7 +46,7 @@ none
 
 | Field | Name | Type | Description |
 |-------|------|------|-------------|
-|Identifier|identifier|string |Unique identifier of the options contract: Symbol + Expiration Date + Option Type + Strike Price, using OSI symbology for all US optione; see https://en.wikipedia.org/wiki/Option_symbol. |
+|Identifier|identifier|string |Unique identifier of the options contract: Symbol + Expiration Date + Option Type + Strike Price, using OSI symbology for all US options; see https://en.wikipedia.org/wiki/Option_symbol. |
 |Strike Price|strikePrice|number|The strike price.|
 |Option Type|optionType|string|The type of option (P = put or C = call).|
 |Last Price|lastPrice|number|The price of the last trade.|
