@@ -35,6 +35,9 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 #### All U.S. Equity Markets
 - [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
 
+### OTC Markets (OTCM)
+- [OTC Markets](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
+
 ### Indexes & Exchange Traded Products (ETPs)
 
 - [Global Index Data Service](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GIDS_Cloud.pdf)
