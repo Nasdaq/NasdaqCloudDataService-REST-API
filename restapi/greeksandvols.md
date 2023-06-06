@@ -32,7 +32,7 @@ none
     "g":  "number",
     "v":  "number",
     "tt": "number",
-    "r":  "number,
+    "r":  "number",
     "iv": "number",
     "tp": "number",
     "t":  "string",
