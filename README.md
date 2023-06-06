@@ -39,7 +39,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 - [Global Index Data Service](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GIDS_Cloud.pdf)
 
-### Options (NBBO and Trades)
+### Options
 
 - [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
 - [Nasdaq Greeks and Vols]
