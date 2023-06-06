@@ -4,13 +4,13 @@ Option Greeks, Implied Volatility, and Theoretical Price for the associated symb
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/nasdaq/realtime/greeksandvols/<identifier>`
+`GET` `https://<base_url>/v1/<source>/<offset>/greeksandvols/<identifier>`
 
 #### URI Parameters
 
 `<source>` - `nasdaq`
 
-`<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
+`<offset>` -  Real-time or 15 minute delayed data; acceptable values: realtime, delayed (currently only realtime is offered)
 
 `<identifier>` - Unique identifier of the options contract
 
