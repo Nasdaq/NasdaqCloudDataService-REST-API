@@ -42,6 +42,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 ### Options (NBBO and Trades)
 
 - [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
+- [Nasdaq Greeks and Vols]
 
 ## Getting Started
 
@@ -81,6 +82,7 @@ Access to the API is granted by providing your client_id and client_secret using
 
 - [`GET` Chain](restapi/chain.md)
 - [`GET` Prices](restapi/prices.md)
+- [`GET` Greeks and Vols](restapi/greeksandvols.md)
 
 ### Reference
 
