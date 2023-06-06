@@ -27,16 +27,16 @@ none
 ```
 [
   {
-    "u": "string",
-    "d": number,
-    "g": "number",
-    "v": number,
-    "tt": number,
-    "r": number,
-    "iv": number,
-    "tp": number,
-    "t": string,
-    "i": string
+    "u":  "string",
+    "d":  "number",
+    "g":  "number",
+    "v":  "number",
+    "tt": "number",
+    "r":  "number,
+    "iv": "number",
+    "tp": "number",
+    "t":  "string",
+    "i":  "string"
   }
 ]
 ```
