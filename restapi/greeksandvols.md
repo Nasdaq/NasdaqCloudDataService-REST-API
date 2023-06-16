@@ -4,7 +4,7 @@ Option Greeks, Implied Volatility, and Theoretical Price for the associated symb
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/greeksandvols/<identifier>`
+`GET` `https://<base_url>/v1/<source>/<offset>/greeksandvolsus/<identifier>`
 
 #### URI Parameters
 
