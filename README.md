@@ -82,7 +82,7 @@ Access to the API is granted by providing your client_id and client_secret using
 
 - [`GET` Chain](restapi/chain.md)
 - [`GET` Prices](restapi/prices.md)
-- [`GET` Greeks and Vols](restapi/greeksandvols.md)
+- [`GET` Greeks and Vols U.S.](restapi/greeksandvols.md)
 
 ### Reference
 
