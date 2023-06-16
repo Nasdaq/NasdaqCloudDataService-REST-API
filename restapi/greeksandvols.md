@@ -1,4 +1,4 @@
-## Greeks and Vols
+## Greeks and Vols U.S.
 
 Option Greeks, Implied Volatility, and Theoretical Price for the associated symbol. 
 
@@ -62,7 +62,7 @@ none
 #### Request
 
 ```
-curl --location --request GET 'https://example.com/v1/nasdaq/realtime/greeksandvols/AAPL   230526C00172500' \
+curl --location --request GET 'https://example.com/v1/nasdaq/realtime/greeksandvolsus/AAPL   230526C00172500' \
 --header "Authorization: Bearer example_token"
 ```
 
