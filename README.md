@@ -39,9 +39,10 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 - [Global Index Data Service](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GIDS_Cloud.pdf)
 
-### Options (NBBO and Trades)
+### Options
 
 - [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
+- [Nasdaq Greeks and Vols](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification_1.pdf)
 
 ## Getting Started
 
@@ -81,6 +82,7 @@ Access to the API is granted by providing your client_id and client_secret using
 
 - [`GET` Chain](restapi/chain.md)
 - [`GET` Prices](restapi/prices.md)
+- [`GET` Greeks and Vols U.S.](restapi/greeksandvols.md)
 
 ### Reference
 
