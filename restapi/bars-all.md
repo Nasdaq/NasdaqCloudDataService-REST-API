@@ -71,17 +71,17 @@ none
 
 ##### Precision & Date Range Parameter Details
 
-| Range | Description | Finest Precision |
-|-------|------|------|
-| YTD | Year to date. Time interval would be 1day. | 1 day |
-| max | All available data with 10+ years of history. Time interval would be 1month/1week. | 1 week |
-| 5y | Five years. Time interval for 5Y would be 1month/1week. | 1 week |
-| 1y | One year. Time interval for 1Y would be 1week/1day. | 1 day |
-| 6m | Six months. Time interval for 6m would be 1day. | 1 day |
-| 3m | Three months. Time interval for 3m would be 1day. | 1 day |
-| 1m | One month. Time interval for 1m would be 1day. | 1 day |
-| 5d | Five days. Time interval for 5d would be 30minute/15minute/10minute/5minute. | 5 minutes |
-| 1d | One day. Time interval would be 1minute/5minute. | 5 seconds |
+| Range | Description |
+|-------|------|
+| YTD | Year to date. Time interval would be 1day. |
+| max | All available data with 10+ years of history. Time interval would be 1month/1week. | 
+| 5y | Five years. Time interval for 5Y would be 1month/1week. |
+| 1y | One year. Time interval for 1Y would be 1week/1day. |
+| 6m | Six months. Time interval for 6m would be 1day. | 
+| 3m | Three months. Time interval for 3m would be 1day. | 
+| 1m | One month. Time interval for 1m would be 1day. | 
+| 5d | Five days. Time interval for 5d would be 30minute/15minute/10minute/5minute. | 
+| 1d | One day. Time interval would be 1minute/5minute. |
 
 
 ---
