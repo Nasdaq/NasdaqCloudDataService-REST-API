@@ -42,7 +42,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 ### Options
 
 - [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
-- [Nasdaq Greeks and Vols](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification_1.pdf)
+- [Nasdaq Greeks and Vols](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification.pdf)
 
 ## Getting Started
 
