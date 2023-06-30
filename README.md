@@ -82,7 +82,7 @@ Access to the API is granted by providing your client_id and client_secret using
 
 - [`GET` Chain](restapi/chain.md)
 - [`GET` Prices](restapi/prices.md)
-- [`GET` Greeks and Vols U.S.](restapi/greeksandvols.md)
+- [`GET` Nasdaq Options Greeks and Implied Volatility](restapi/greeksandvols.md)
 
 ### Reference
 
