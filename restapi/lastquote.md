@@ -50,21 +50,16 @@ none
 | Ask Size| askSize    | number |This represents the number of round lot orders at the given ask price|
 | Ask Venue| askVenue   | string  | Exchange where quote took place (see table below)|
 
-##### Venues
+##### Exchanges
 
 | Source | Code | Value |
 |-------|-------|------|
 |`Nasdaq`, `BX`, `PSX`, `CQT`|Q |The Nasdaq Stock Market |
-|`Nasdaq`, `BX`, `PSX`, `CQT`|N |NYSE |
-|`Nasdaq`, `BX`, `PSX`, `CQT`|A |NYSE American |
-|`Nasdaq`, `BX`, `PSX`, `CQT`|P |NYSE Arca |
-|`Nasdaq`, `BX`, `PSX`|Z |BATS |
-|`Nasdaq`, `BX`, `PSX`|V |Investors’ Exchange LLC |
-|`CQT`|B |Nasdaq BX (BX) |
-|`CQT`|X |Nasdaq PSX (PSX) |
+|`CQT`|N |New York Stock Exchange, LLC |
+|`CQT`|B |Nasdaq BX, Inc.|
 |`CQT`|E |Market Independent |
 |`CQT`|D |FINRA Alternative Display Facility |
-|`CQT`|Z |Cboe BZX Exchange, Inc |
+|`CQT`|Z |Cboe BZX Exchange, Inc. |
 |`CQT`|T |The NASDAQ Stock Market, LLC |
 |`CQT`|I |International Securities Exchange 
 |`CQT`|U |Members Exchange |
@@ -74,10 +69,12 @@ none
 |`CQT`|M |Chicago Stock Exchange |
 |`CQT`|Y |Cboe BYX Exchange, Inc. |
 |`CQT`|C |NYSE National, Inc. |
+|`CQT`|X |Nasdaq PSX (PSX) |
+|`CQT`|A |NYSE American |
 |`CQT`|K |Cboe EDGX Exchange, Inc. |
+|`CQT`|P |NYSE Arca, Inc. |
 |`CQT`|L |Long-term Stock Exchange |
 |`CQT`|H |MIAX Exchange |
-
 
 ---
 
