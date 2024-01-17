@@ -102,43 +102,27 @@ Level 4 - Special sale condition codes (field is case sensitive)
 
 | Source | Code | Value |
 |-------|-------|------|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|Q|The Nasdaq Stock Market|
-|`Nasdaq`, `BX`, `PSX`|L|Nasdaq/FINRA Trade Reporting Facility (TRF) Cartaret|
-|`Nasdaq`, `BX`, `PSX`|2|Nasdaq/FINRA Trade Reporting Facility (TRF) Chicago|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|B|Nasdaq BX (BX)|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|X|Nasdaq PSX (PSX)|
-|`CQT`|N |New York Stock Exchange, LLC|
-|`CQT`|E |Market Independent|
-|`CQT`|D |FINRA Alternative Display Facility|
-|`CQT`|Z |Cboe BZX Exchange, Inc|
-|`CQT`|T |The NASDAQ Stock Market, LLC|
-|`CQT`|I |International Securities Exchange|
-|`CQT`|U |Members Exchange|
-|`CQT`|W |Cboe Stock Exchange|
-|`CQT`|u |Other OTC Markets|
-|`CQT`|J |Cboe EDGA Exchange, Inc.|
-|`CQT`|M |Chicago Stock Exchange|
-|`CQT`|Y |Cboe BYX Exchange, Inc.|
-|`CQT`|C |NYSE National, Inc.|
-|`CQT`|A |NYSE American, LLC|
-|`CQT`|K |Cboe EDGX Exchange, Inc.|
-|`CQT`|P |NYSE Arca, Inc|
-|`CQT`|L |Long-term Stock Exchange|
-|`CQT`|H |MIAX Exchange|
-
-
-##### Venues
-
-| Source | Code | Value |
-|-------|-------|------|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|Q|The Nasdaq Stock Market|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|N|NYSE|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|A|NYSE American|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|P|NYSE Arca|
-|`Nasdaq`, `BX`, `PSX`|Z|BATS|
-|`Nasdaq`, `BX`, `PSX`, `CQT`|V|Investors’ Exchange LLC|
-|`CQT`|u|Other OTC Markets|
-
+|`Nasdaq`, `BX`, `PSX`, `CQT`|Q |The Nasdaq Stock Market |
+|`CQT`|N |New York Stock Exchange, LLC |
+|`CQT`|B |Nasdaq BX, Inc.|
+|`CQT`|E |Market Independent |
+|`CQT`|D |FINRA Alternative Display Facility |
+|`CQT`|Z |Cboe BZX Exchange, Inc. |
+|`CQT`|T |The NASDAQ Stock Market, LLC |
+|`CQT`|I |International Securities Exchange 
+|`CQT`|U |Members Exchange |
+|`CQT`|W |Cboe Stock Exchange |
+|`CQT`|u |Other OTC Markets |
+|`CQT`|J |Cboe EDGA Exchange, Inc. |
+|`CQT`|M |Chicago Stock Exchange |
+|`CQT`|Y |Cboe BYX Exchange, Inc. |
+|`CQT`|C |NYSE National, Inc. |
+|`CQT`|X |Nasdaq PSX (PSX) |
+|`CQT`|A |NYSE American |
+|`CQT`|K |Cboe EDGX Exchange, Inc. |
+|`CQT`|P |NYSE Arca, Inc. |
+|`CQT`|L |Long-term Stock Exchange |
+|`CQT`|H |MIAX Exchange |
 
 ---
 
