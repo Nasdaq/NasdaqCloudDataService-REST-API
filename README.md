@@ -33,7 +33,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 - [PSX Last Sale](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/PLS_Cloud.pdf)
 
 #### All U.S. Equity Markets
-- [Nasdaq Consolidated Quotes and Trades](https://github.com/Nasdaq/CloudDataService/raw/master/specs/CQT-cloud.pdf)
+- [Nasdaq Consolidated Quotes and Trades](https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/CQT-cloud.pdf)
 
 ### Indexes & Exchange Traded Products (ETPs)
 
