@@ -8,7 +8,7 @@ Top 20 gaining, declining, most active by volume and most active by dollar volum
 
 #### URI Parameters
 
-`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`, `OTCBB`
+`<source>` - Data source; acceptable values: `Nasdaq`, `BX`, `PSX`, `CQT`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
