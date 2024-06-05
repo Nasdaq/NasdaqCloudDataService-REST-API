@@ -1,4 +1,4 @@
-## Bars (Nasdaq, CQT, and OTCBB)
+## Bars (Nasdaq and CQT)
 
 Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol with 10+ years of history.
 
@@ -8,7 +8,7 @@ Bars are calculated from 4:00 am to 8:00 pm ET for a given symbol with 10+ years
 
 #### URI Parameters
 
-`<source>` - Data source; Acceptable values: `Nasdaq`, `CQT`, or `OTCBB`
+`<source>` - Data source; Acceptable values: `Nasdaq`, `CQT`
 
 `<offset>` - Real-time or 15 minute delayed data; acceptable values: `realtime`, `delayed`
 
