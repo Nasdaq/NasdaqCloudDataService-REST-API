@@ -579,43 +579,6 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5sec)",
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Authorization",
-												"value": "Bearer {{AuthorizationToken}}",
-												"type": "text"
-											}
-										],
-										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/realtime/equities/bars/NDAQ/5second/2022-08-26T09:30/2022-08-26T10:00",
-											"host": [
-												"{{BaseURL}}"
-											],
-											"path": [
-												"{{ApiVersionV1}}",
-												"nasdaq",
-												"realtime",
-												"equities",
-												"bars",
-												"NDAQ",
-												"5second",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
-											]
-										},
-										"description": "ReferanceEndPoint"
-									},
-									"response": []
-								},
-								{
 									"name": "Bars (1min)",
 									"request": {
 										"method": "GET",
@@ -632,20 +595,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/realtime/equities/bars/NDAQ/1minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/realtime/equities/bars/NDAQ/1minute/false/1d",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"nasdaq",
 												"realtime",
 												"equities",
 												"bars",
 												"NDAQ",
 												"1minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"false",
+												"1d"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -653,7 +616,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5min)",
+									"name": "Bars (1day)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -669,20 +632,94 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/realtime/equities/bars/NDAQ/5minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/realtime/equities/bars/NDAQ/1day/false/3m",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"nasdaq",
 												"realtime",
 												"equities",
 												"bars",
 												"NDAQ",
-												"5minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"1day",
+												"false",
+												"1m"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Bars (1week)",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/realtime/equities/bars/NDAQ/1week/false/1y",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersionV2}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"bars",
+												"NDAQ",
+												"1week",
+												"false",
+												"1m"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Bars (1month)",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/realtime/equities/bars/NDAQ/1month/false/5y",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersionV2}}",
+												"nasdaq",
+												"realtime",
+												"equities",
+												"bars",
+												"NDAQ",
+												"1month",
+												"false",
+												"1y"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -1000,43 +1037,6 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5sec)",
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Authorization",
-												"value": "Bearer {{AuthorizationToken}}",
-												"type": "text"
-											}
-										],
-										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/delayed/equities/bars/NDAQ/5second/2022-08-26T09:30/2022-08-26T10:00",
-											"host": [
-												"{{BaseURL}}"
-											],
-											"path": [
-												"{{ApiVersionV1}}",
-												"nasdaq",
-												"delayed",
-												"equities",
-												"bars",
-												"NDAQ",
-												"5second",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
-											]
-										},
-										"description": "ReferanceEndPoint"
-									},
-									"response": []
-								},
-								{
 									"name": "Bars (1min)",
 									"request": {
 										"method": "GET",
@@ -1053,20 +1053,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/delayed/equities/bars/NDAQ/1minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/delayed/equities/bars/NDAQ/1minute/false/1d",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"nasdaq",
 												"delayed",
 												"equities",
 												"bars",
 												"NDAQ",
 												"1minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"false",
+												"1d"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -1074,7 +1074,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5min)",
+									"name": "Bars (1day)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -1090,20 +1090,94 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/nasdaq/delayed/equities/bars/NDAQ/5minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/delayed/equities/bars/NDAQ/1day/false/3m",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"nasdaq",
 												"delayed",
 												"equities",
 												"bars",
 												"NDAQ",
-												"5minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"1day",
+												"false",
+												"1m"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Bars (1week)",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/delayed/equities/bars/NDAQ/1week/false/1y",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersionV2}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"bars",
+												"NDAQ",
+												"1week",
+												"false",
+												"1m"
+											]
+										},
+										"description": "ReferanceEndPoint"
+									},
+									"response": []
+								},
+								{
+									"name": "Bars (1month)",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{AuthorizationToken}}",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/nasdaq/delayed/equities/bars/NDAQ/1month/false/5y",
+											"host": [
+												"{{BaseURL}}"
+											],
+											"path": [
+												"{{ApiVersionV2}}",
+												"nasdaq",
+												"delayed",
+												"equities",
+												"bars",
+												"NDAQ",
+												"1month",
+												"false",
+												"1y"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3120,43 +3194,6 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5sec)",
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Authorization",
-												"value": "Bearer {{AuthorizationToken}}",
-												"type": "text"
-											}
-										],
-										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/realtime/equities/bars/NDAQ/5second/2022-08-26T09:30/2022-08-26T10:00",
-											"host": [
-												"{{BaseURL}}"
-											],
-											"path": [
-												"{{ApiVersionV1}}",
-												"cqt",
-												"realtime",
-												"equities",
-												"bars",
-												"NDAQ",
-												"5second",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
-											]
-										},
-										"description": "ReferanceEndPoint"
-									},
-									"response": []
-								},
-								{
 									"name": "Bars (1min)",
 									"request": {
 										"method": "GET",
@@ -3173,20 +3210,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/realtime/equities/bars/NDAQ/1minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/NDAQ/1minute/false/1d",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"cqt",
 												"realtime",
 												"equities",
 												"bars",
 												"NDAQ",
 												"1minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"false",
+												"1d"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3194,7 +3231,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5min)",
+									"name": "Bars (1day)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3210,20 +3247,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/realtime/equities/bars/NDAQ/5minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/NDAQ/1day/false/3m",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"cqt",
 												"realtime",
 												"equities",
 												"bars",
 												"NDAQ",
-												"5minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"1day",
+												"false",
+												"1m"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3231,7 +3268,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars/Chart (Intraday)",
+									"name": "Bars (1week)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3247,7 +3284,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/ndaq,spy,qqq/5minute/false/5d",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/NDAQ/1week/false/1y",
 											"host": [
 												"{{BaseURL}}"
 											],
@@ -3257,10 +3294,10 @@
 												"realtime",
 												"equities",
 												"bars",
-												"ndaq,spy,qqq",
-												"5minute",
+												"NDAQ",
+												"1week",
 												"false",
-												"5d"
+												"1m"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3268,7 +3305,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars/Chart (daily)",
+									"name": "Bars (1month)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3284,7 +3321,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/ndaq,spy,qqq/5second/false/1d",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/realtime/equities/bars/NDAQ/1month/false/5y",
 											"host": [
 												"{{BaseURL}}"
 											],
@@ -3294,10 +3331,10 @@
 												"realtime",
 												"equities",
 												"bars",
-												"ndaq,spy,qqq",
-												"5second",
+												"NDAQ",
+												"1month",
 												"false",
-												"1d"
+												"1y"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3615,43 +3652,6 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5sec)",
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Authorization",
-												"value": "Bearer {{AuthorizationToken}}",
-												"type": "text"
-											}
-										],
-										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/delayed/equities/bars/NDAQ/5second/2022-08-26T09:30/2022-08-26T10:00",
-											"host": [
-												"{{BaseURL}}"
-											],
-											"path": [
-												"{{ApiVersionV1}}",
-												"cqt",
-												"delayed",
-												"equities",
-												"bars",
-												"NDAQ",
-												"5second",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
-											]
-										},
-										"description": "ReferanceEndPoint"
-									},
-									"response": []
-								},
-								{
 									"name": "Bars (1min)",
 									"request": {
 										"method": "GET",
@@ -3668,20 +3668,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/delayed/equities/bars/NDAQ/1minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/NDAQ/1minute/false/1d",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"cqt",
 												"delayed",
 												"equities",
 												"bars",
 												"NDAQ",
 												"1minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"false",
+												"1d"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3689,7 +3689,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars (5min)",
+									"name": "Bars (1day)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3705,20 +3705,20 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV1}}/cqt/delayed/equities/bars/NDAQ/5minute/2022-08-26T09:30/2022-08-26T10:00",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/NDAQ/1day/false/3m",
 											"host": [
 												"{{BaseURL}}"
 											],
 											"path": [
-												"{{ApiVersionV1}}",
+												"{{ApiVersionV2}}",
 												"cqt",
 												"delayed",
 												"equities",
 												"bars",
 												"NDAQ",
-												"5minute",
-												"2022-08-26T09:30",
-												"2022-08-26T10:00"
+												"1day",
+												"false",
+												"1m"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3726,7 +3726,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars/Chart (Intraday)",
+									"name": "Bars (1week)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3742,7 +3742,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/ndaq,spy,qqq/5minute/false/5d",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/NDAQ/1week/false/1y",
 											"host": [
 												"{{BaseURL}}"
 											],
@@ -3752,10 +3752,10 @@
 												"delayed",
 												"equities",
 												"bars",
-												"ndaq,spy,qqq",
-												"5minute",
+												"NDAQ",
+												"1week",
 												"false",
-												"5d"
+												"1m"
 											]
 										},
 										"description": "ReferanceEndPoint"
@@ -3763,7 +3763,7 @@
 									"response": []
 								},
 								{
-									"name": "Bars/Chart (daily)",
+									"name": "Bars (1month)",
 									"request": {
 										"method": "GET",
 										"header": [
@@ -3779,7 +3779,7 @@
 											}
 										],
 										"url": {
-											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/ndaq,spy,qqq/5second/false/1d",
+											"raw": "{{BaseURL}}/{{ApiVersionV2}}/cqt/delayed/equities/bars/NDAQ/1month/false/5y",
 											"host": [
 												"{{BaseURL}}"
 											],
@@ -3789,10 +3789,10 @@
 												"delayed",
 												"equities",
 												"bars",
-												"ndaq,spy,qqq",
-												"5second",
+												"NDAQ",
+												"1month",
 												"false",
-												"1d"
+												"1y"
 											]
 										},
 										"description": "ReferanceEndPoint"
