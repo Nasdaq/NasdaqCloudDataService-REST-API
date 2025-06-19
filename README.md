@@ -46,7 +46,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 ## Getting Started
 
-The customer service team will provide you with the API URL (`<base_url>`), username (`client_id`), and password (`client_secret`). Substitute for these placeholders with actual values in your code.
+The client success team will provide you with the API URL (`<base_url>`), username (`client_id`), and password (`client_secret`). Substitute for these placeholders with actual values in your code.
 
 ## Authentication
 
