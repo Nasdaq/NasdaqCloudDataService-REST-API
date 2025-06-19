@@ -115,7 +115,7 @@ The first part of the URI path specifies the API version, in the format v{versio
 
 ## Tutorial
 
-We provide a [Postman](https://www.getpostman.com/) collection with a set of requests for the API. You will need an Nasdaq Cloud Data Service account with API access to run this tutorial. The Postman collection and environemnt files are available [here](restapi/postman).
+We provide a [Postman](https://www.getpostman.com/) collection with a set of requests for the API. You will need an Nasdaq Cloud Data Service account with API access to run this tutorial. The Postman collection and environment files are available [here](restapi/postman).
 
 ## License
 
