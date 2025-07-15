@@ -1,18 +1,18 @@
-## Greeks and Vols U.S.
+## Nasdaq Greeks and Implied Volatility Powered by Basic
 
 Option Greeks, Implied Volatility, and Theoretical Price for the associated symbol. 
 
 ##### Endpoint
 
-`GET` `https://<base_url>/v1/<source>/<offset>/greeksandvolsus/<identifier>`
+`GET` `https://<base_url>/v1/nasdaq/<offset>/greeksandvolsusbasic/<symbol>`
 
 #### URI Parameters
 
 `<source>` - `nasdaq`
 
-`<offset>` -  Real-time or 15 minute delayed data; acceptable values: realtime, delayed (currently only realtime is offered)
+`<offset>` -  Real-time data; acceptable values: realtime, delayed (currently only realtime is offered)
 
-`<identifier>` - Unique identifier of the options contract
+`<symbol>` - Unique identifier of the options contract
 
 #### Headers
 
@@ -27,16 +27,17 @@ none
 ```
 [
   {
-    "u":  "string",
-    "d":  "number",
-    "g":  "number",
-    "vg":  "number",
-    "tt": "number",
-    "r":  "number",
-    "iv": "number",
-    "tp": "number",
-    "t":  "string",
-    "i":  "string"
+“t”: “string”, 
+“i”: “string”,   
+“u”: “string”, 
+“d”: “number”  
+“g”: “number” 
+“v”: “number” 
+“tt”: “number”  
+“r”: “number” 
+“iv”: “number”   
+"tp”: “number” 
+
   }
 ]
 ```
