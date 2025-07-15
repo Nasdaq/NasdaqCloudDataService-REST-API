@@ -43,7 +43,7 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 - [Nasdaq Smart Options](http://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/NCDSSmartOptions.pdf)
 - [Nasdaq Options Greeks and Implied Volatility](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification.pdf)
-- [Nasdaq Options Greeks and Implied Volatility Powered by Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1l9llsZZEv5eFKQ6D40ONr/456bc9655d5e93de6a9c8f332bbea36b/Streaming_Greeks_and_Vols_Powered_by_Nasdaq_Basic_Specifications.pdf)
+- [Nasdaq Options Greeks and Implied Volatility Powered by Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/5TJxpG0Cjk1tNUIRP4rZ86/5d77161ead15d746872d2ff17ba6ac06/Greeks_and_Vols_Powered_by_Basic_Streaming_Specs.pdf)
 
 ## Getting Started
 
