@@ -63,9 +63,8 @@ none
 
 ```
 curl --request GET \
-  --url https://dev.restapi.clouddataservice.nasdaq.com/v1/nasdaq/realtime/greeksandvolsus/BRKB%2520%2520250627C00270000 \
+  --url https://example.com/v1/nasdaq/realtime/greeksandvolsus/AAPL 230526C00172500 \
   --header 'authorization: Bearer {{AuthorizationToken}}' 
-  --header 'content-type: application/json'
 ```
 
 #### Response
