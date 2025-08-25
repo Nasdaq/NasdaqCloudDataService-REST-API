@@ -20,17 +20,17 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 #### The Nasdaq Stock Market
 
 - [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1p3KwAHQ789Dhcq7cJN4yo/ab0cde4605bbe954c22b07828dce3651/NasdaqBasic-Cloud.pdf)
-- [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/8dac8a66abd5060fb2035caa8b47de7a/NLSPlus-cloud_NYSE_T_Edits.pdf)
+- [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq BX
 
 - [BX BBO](https://assets.ctfassets.net/mx0rke14e5yt/2ZFqKHM1ANrMw4h3dzLOk9/0671db471e8fdddba84a749660e24a75/BX_BBO_Cloud.pdf)
-- [BX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/1YUKBAC0o5RXQCrfPuArhK/abb14643a825f1e2577ea453ae4b40eb/BLS_Cloud.pdf)
+- [BX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq PSX
 
 - [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/7hvQnBms29OuqWOG8zkw8T/e56be434998aa0b31993d5ddc816d8e3/PSX_BBO_Cloud.pdf)
-- [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3aw3Qqx9JpPPXm3mpZcQOS/08a36484809642acd65f7013031bf4e4/PLS_Cloud.pdf)
+- [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### All U.S. Equity Markets
 - [Nasdaq Consolidated Quotes and Trades](https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/CQT-cloud.pdf)
