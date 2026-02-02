@@ -45,6 +45,10 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 - [Nasdaq Options Greeks and Implied Volatility](http://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/GreeksandVols_Specification.pdf)
 - [Nasdaq Options Greeks and Implied Volatility Powered by Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/5TJxpG0Cjk1tNUIRP4rZ86/5d77161ead15d746872d2ff17ba6ac06/Greeks_and_Vols_Powered_by_Basic_Streaming_Specs.pdf)
 
+### News
+
+- [Financial News - MT Newswires](https://nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/MTNewswires-cloud.pdf)
+
 ## Getting Started
 
 The client success team will provide you with the API URL (`<base_url>`), username (`client_id`), and password (`client_secret`). Substitute for these placeholders with actual values in your code.
@@ -85,6 +89,10 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Prices](restapi/prices.md)
 - [`GET` Nasdaq Options Greeks and Implied Volatility](restapi/greeksandvols.md)
 - [`GET` Nasdaq Options Greeks and Implied Volatility Powered by Nasdaq Basic](restapi/greeksandvolsbasic.md)
+
+### News
+
+- [`GET` News](restapi/chain.md)
 
 ### Reference
 
