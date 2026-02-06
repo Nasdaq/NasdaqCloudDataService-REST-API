@@ -92,7 +92,7 @@ Access to the API is granted by providing your client_id and client_secret using
 
 ### News
 
-- [`GET` News](restapi/chain.md)
+- [`GET` News](restapi/news.md)
 
 ### Reference
 
