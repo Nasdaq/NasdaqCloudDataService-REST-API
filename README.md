@@ -19,21 +19,21 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 #### The Nasdaq Stock Market
 
-- [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf)
-- [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
+- [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq Texas
 
-- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf)
-- [Texas Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
+- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [Texas Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq PSX
 
-- [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf)
-- [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
+- [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/1BMqS6qxiLo3nrdRWvoPYR/85ee6d7502d8929d31b0acfaff5d92f2/NasdaqBBO_Cloud-2025.pdf)
+- [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/3QdPbjB96Z0Atz61FlQ4b4/63d4dd264bfc3c8a7653adef1b83e4c2/2-13_NewLastSale_Cloud-2025-1.pdf)
 
 #### All U.S. Equity Markets
-- [Nasdaq Consolidated Quotes and Trades](https://images.ctfassets.net/mx0rke14e5yt/19Ud7WoFVS17VcIk4efxNd/8decf61dacc984ecdd6bad0192b6c7a5/CQT-cloud.pdf)
+- [Nasdaq Consolidated Quotes and Trades](https://assets.ctfassets.net/mx0rke14e5yt/19Ud7WoFVS17VcIk4efxNd/aa7a3bd8888cce5e85850da88cc4a352/2-13CQT-cloud.pdf)
 
 ### Indexes & Exchange Traded Products (ETPs)
 
