@@ -22,10 +22,10 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 - [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1p3KwAHQ789Dhcq7cJN4yo/ab0cde4605bbe954c22b07828dce3651/NasdaqBasic-Cloud.pdf)
 - [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
-#### Nasdaq BX
+#### Nasdaq Texas
 
-- [BX BBO](https://assets.ctfassets.net/mx0rke14e5yt/2ZFqKHM1ANrMw4h3dzLOk9/0671db471e8fdddba84a749660e24a75/BX_BBO_Cloud.pdf)
-- [BX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
+- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/2ZFqKHM1ANrMw4h3dzLOk9/0671db471e8fdddba84a749660e24a75/BX_BBO_Cloud.pdf)
+- [Texas Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq PSX
 
@@ -70,7 +70,7 @@ Access to the API is granted by providing your client_id and client_secret using
 - [`GET` Last Quote](restapi/lastquote.md)
 - [`GET` Snapshot](restapi/snapshot.md)
 - [`GET` Trends](restapi/trends.md)
-- [`GET` Bars (BX and PSX)](restapi/bars.md)
+- [`GET` Bars (Texas and PSX)](restapi/bars.md)
 - [`GET` Bars (Nasdaq, CQT, and OTCBB)](restapi/bars-all.md)
 
 ### Indexes
