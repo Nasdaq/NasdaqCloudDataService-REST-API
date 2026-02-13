@@ -19,17 +19,17 @@ Nasdaq Data Link provides a modern and efficient method of delivery for realtime
 
 #### The Nasdaq Stock Market
 
-- [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/1p3KwAHQ789Dhcq7cJN4yo/ab0cde4605bbe954c22b07828dce3651/NasdaqBasic-Cloud.pdf)
+- [Nasdaq Basic](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf)
 - [Nasdaq Last Sale+](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq Texas
 
-- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/2ZFqKHM1ANrMw4h3dzLOk9/0671db471e8fdddba84a749660e24a75/BX_BBO_Cloud.pdf)
+- [Texas BBO](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf)
 - [Texas Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### Nasdaq PSX
 
-- [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/7hvQnBms29OuqWOG8zkw8T/e56be434998aa0b31993d5ddc816d8e3/PSX_BBO_Cloud.pdf)
+- [PSX BBO](https://assets.ctfassets.net/mx0rke14e5yt/7EKUREHBRJYUj35F5TEWYr/c43c31cc7dbaaefdbcfbe7381acc763f/NasdaqBBO_Cloud-2025.pdf
 - [PSX Last Sale](https://assets.ctfassets.net/mx0rke14e5yt/2O7Da5RPfo9Xnha7sCRjHh/972e6f13fcf51b4001f481110f4c8204/NewLastSale_Cloud-2025-1.pdf)
 
 #### All U.S. Equity Markets
