@@ -56,7 +56,7 @@ none
 |-------|-------|------|
 |`Nasdaq`, `BX`, `PSX`, `CQT`|Q |The Nasdaq Stock Market |
 |`CQT`|N |New York Stock Exchange, LLC |
-|`CQT`|B |Nasdaq BX, Inc.|
+|`CQT`|B |Nasdaq Texas, Inc.|
 |`CQT`|E |Market Independent |
 |`CQT`|D |FINRA Alternative Display Facility |
 |`CQT`|Z |Cboe BZX Exchange, Inc. |
